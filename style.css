@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+#nav{
+    
+    display: flex;
+}
+#nav i:last-child{
+    font-size: 20px;
+}
+#nav .arrow{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+    margin: 30px;
+}
+#nav ul{
+    margin: 30px;
+}
+#nav ul li{
+    display: inline;
+    font-size: 25px;
+    margin-left: 12px;
+}
+.button{
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+    border-radius: 7px;  
+    background-color: white;
+    padding: 5px;
+    width: 80px;
+    font-weight: bold;
+}
+#main h1{
+    font-size: 80px;
+}
+#main{
+    margin-left: 90px;
+    margin-top: 90px;
+}
+.images{
+    top: -26.1em;
+    position: relative;
+    left: 40em;
+}
+.images{
+    height: 400px;
+    width: 500px;
+}
+.button:hover{
+    background: hotpink;
+    border-radius: 7px;
+    color: #fff;
+}
+#nav ul li:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
